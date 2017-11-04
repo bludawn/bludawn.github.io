@@ -1,6 +1,7 @@
 <!-- body{text-align:center} border:1px solid #F00; -->
 <!DOCTYPE html> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
+	<!-- 头部定义 -->
 	<head> 
 		<meta charset="utf-8" /> 
 		<title>陌上传奇</title> 
@@ -21,32 +22,47 @@
 			.myCenterText{   float:middle} 
 		</style>
 	</head> 
-	<div style="background:url('1.jpg') no-repeat;">
-	<div class="myAudioStyle" >
-		<audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="Log-in-long2.mp3">你的浏览器不支持audio标签</audio>
-	</div>
-	<div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
-	<div class="myLeftImage">
-		<img src="zb1.png"  alt="装备1" align="top"/>
-		<img src="zb3.png"  alt="装备3" align="top"/>
-		<img src="zb2.png"  alt="装备2" align="top"/>
-	</div>
-	<div class="myRightImage">
-		<img src="zs.png"  alt="战士" align="top"/>
-		<img src="ds.png"  alt="法师" align="top"/>
-		<img src="fs.png"  alt="道士" align="top"/>
-	</div>
-	<div class="myCenterText">
-		<font size="7" color="#aa3322" align="middle">-------------陌上传奇-----------</font><br/>
-		<font size="5" color="#889922">努力还原2002年1.76的经典版本，保持原汁原味的基础上，重新架构游戏世界，内容丰富，经久耐玩。</font><br/>
-		<font size="5" color="#553355">小极品、大极品、经典套装、特色套装、特有装备、专有武器，只有你想不到，没有我们做不到。</font><br/>
-		<font size="5" color="#aa3322">长达5个月的测试已经基本稳定了版本，11月10号会开放第一个服务器，如果你是一名传奇玩家，还等什么赶紧进入游戏吧。11月10号以前，如果你的角色能在排行榜各职业前8，将会在正式服有大量金币奖励。</font><br/>
-		<font size="5" color="#3377aa">GM郑重承认：我们不是快餐服、1天服、坑钱服、赌博服、各种乱七八糟亮瞎狗眼的BUG服。《陌上传奇》有长达10W的故事脚本，足够我们后续开发，有能力将游戏做的更好。</font><br/>
-		<font size="6" color="#ff3322">注意：是11月10号，加群：628942682，防止错过时间！！！</font><br/>
-		<font size="7" color="#553355">陌上花开，君可缓缓归来</font><br/>
-		<font size="7" color="#995533">
-			<a href="http://pan.baidu.com/s/1pKJ9wev">登录器</a>
-			<a href="http://pan.baidu.com/s/1dEC2mhN">完整客户端</a>
-		</font>
-	</div>
+
+	<!-- 内容 -->
+	<body>
+		<div style="background:url('1.jpg') no-repeat;">
+		<div class="myAudioStyle" >
+			<audio id="myAudio" autoplay="none" controls="controls" loop="loop" preload="auto">你的浏览器不支持audio标签</audio>
+		</div>
+		<div><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+		<div class="myLeftImage">
+			<img src="zb1.png"  alt="装备1" align="top"/>
+			<img src="zb3.png"  alt="装备3" align="top"/>
+			<img src="zb2.png"  alt="装备2" align="top"/>
+		</div>
+		<div class="myRightImage">
+			<img src="zs.png"  alt="战士" align="top"/>
+			<img src="ds.png"  alt="法师" align="top"/>
+			<img src="fs.png"  alt="道士" align="top"/>
+		</div>
+		<div class="myCenterText">
+			<font size="7" color="#aa3322" align="middle">-------------陌上传奇-----------</font><br/>
+			<font size="5" color="#889922">努力还原2002年1.76的经典版本，保持原汁原味的基础上，重新架构游戏世界，内容丰富，经久耐玩。</font><br/>
+			<font size="5" color="#553355">小极品、大极品、经典套装、特色套装、特有装备、专有武器，只有你想不到，没有我们做不到。</font><br/>
+			<font size="5" color="#aa3322">长达5个月的测试已经基本稳定了版本，11月10号会开放第一个服务器，如果你是一名传奇玩家，还等什么赶紧进入游戏吧。11月10号以前，如果你的角色能在排行榜各职业前8，将会在正式服有大量金币奖励。</font><br/>
+			<font size="5" color="#3377aa">GM郑重承认：我们不是快餐服、1天服、坑钱服、赌博服、各种乱七八糟亮瞎狗眼的BUG服。《陌上传奇》有长达10W的故事脚本，足够我们后续开发，有能力将游戏做的更好。</font><br/>
+			<font size="6" color="#ff3322">注意：是11月10号，加群：628942682，防止错过时间！！！</font><br/>
+			<font size="7" color="#553355">陌上花开，君可缓缓归来</font><br/>
+			<font size="7" color="#995533">
+				<a href="http://pan.baidu.com/s/1pKJ9wev">登录器</a>
+				<a href="http://pan.baidu.com/s/1dEC2mhN">完整客户端</a>
+			</font>
+		</div>
+	</body>
+
+	<!-- 脚本 -->
+	<script type="text/javascript">
+		{	// 音频播放
+			var audioFilename = new Array("hongchen_1.mp3", "Log-in-long2.mp3", "diliya.mp3")
+			var index = Math.ceil((Math.random() * 100)) % 3
+			var audio = document.getElementById("myAudio");
+			audio.src = audioFilename[index];
+			audio.play()
+		}
+	</script>
 </html> 
